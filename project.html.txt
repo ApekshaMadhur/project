@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align:center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+         {
+            margin-top: 20px;
+            padding: 10px;
+            border: 2px solid blue;
+            width: 300px;
+            height: 200px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+        }
+
+         img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        input[type="file"] {
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Plant Disease Detection</h1>
+    <p>Upload an image of the plant's leaf to check for diseases.</p>
+    
+    <!-- File Input for image upload -->
+    <input type="file" id="imageInput" accept="image/*" />
+    
+     <!-- Placeholder for displaying the image -->
+    <div id="output">Your image will appear here</div>
+    
+    <!-- Button to simulate disease detection -->
+    <button onclick="detectDisease()">Detect Disease</button
+
+</body>
+</html>
